@@ -10,7 +10,9 @@ import javax.ws.rs.core.MediaType;
 import org.koushik.javabrains.messenger2.model.Message;
 import org.koushik.javabrains.messenger2.service.MessageService;
 
-
+/**
+ * http://localhost:8080/messenger2/webapi/messages
+ */
 @Path("/messages")
 public class MessageResource {	
 	MessageService messageService = new MessageService();
