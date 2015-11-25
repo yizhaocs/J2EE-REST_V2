@@ -11,6 +11,7 @@ import org.koushik.javabrains.messenger2.model.Message;
 import org.koushik.javabrains.messenger2.service.MessageService;
 
 /**
+ * REST Web Services 14 - Returning XML Response
  * http://localhost:8080/messenger2/webapi/messages
  */
 @Path("/messages")
